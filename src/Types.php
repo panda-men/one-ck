@@ -44,7 +44,8 @@ class Types
         'ipv6'      => 'fixedstring(16)',
         'enum8'     => 'int8',
         'enum16'    => 'int16',
-        'nothing'   => 'int8'
+        'nothing'   => 'int8',
+        'bool'      => 'uint8'
     ];
 
     public function __construct($write, $read)
